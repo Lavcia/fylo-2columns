@@ -156,6 +156,14 @@ margin: 0;
 
 @media (max-width: 572px) {
 
+/* navigation */
+
+.logo {
+  height: auto;
+  width: 28%;
+  margin-left: 3%;
+}
+
 
 
 /* features/block 1 */
@@ -218,6 +226,7 @@ font-size: 0.8rem;
   align-items: center;
   width: 100%;
   justify-content: center;
+  margin: 0;
 }
 
 .head-block-2 {
