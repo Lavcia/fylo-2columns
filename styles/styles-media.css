@@ -1,0 +1,291 @@
+
+
+
+@media (max-width: 860px) and (min-width: 573px) {
+
+  .block1 {
+     margin-top: 5%;
+
+  }
+
+  .block-1-main {
+
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .block-1-text {
+    align-items: center;
+    text-align: left;
+
+  }
+
+  .head-block-1 {
+    font-size: 4vw;
+    text-align: left;
+  }
+
+  .image-div-1 {
+    align-self: center;
+
+
+  }
+
+  .sign-up {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .email-block  {
+    width: 90%;
+    margin-right: 0;
+  }
+
+  .signup-btn-block {
+    margin-top: 3%;
+  width:92%;
+  padding: 2.5% 6%;
+  color:  #f0f0f0;
+  font-size: 0.8rem;
+
+  }
+
+  /* teams/block2 */
+
+  .block-2-main {
+margin: 0;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .head-block-2 {
+    font-size: 4vw;
+  }
+
+  .block-2-text {
+    align-items: center;
+    text-align: left;
+  margin-left: 6%;
+  }
+
+  .p-block-2 {
+
+  }
+
+
+  .image-div-2 {
+    align-self: center;
+
+
+  }
+
+  .testimonial {
+    width: 80%;
+
+
+  }
+
+  /* cta */
+
+  .cta {
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  }
+
+  .text-cta {
+    width: 80%;
+    align-items: center;
+  }
+
+  .p-cta {
+    font-size: 1rem;
+  }
+
+  .email-cta-div {
+    width: 80%;
+  }
+
+  .email-cta {
+  width: 97%;
+  }
+
+  .signup-btn-cta {
+    width: 100%;
+  }
+
+  /* footer */
+
+  .footer {
+  display: grid;
+  grid-template-columns:45% 45%;
+  grid-template-rows: 1fr 1fr;
+
+  }
+
+  .footer-left {
+    grid-area: 1/1/2/2;
+    align-items: center;
+  }
+
+  .footer-middle {
+    grid-area: 1/2/2/3;
+    padding-top: 0;
+    align-items: center;
+  }
+
+  .footer-right {
+    grid-area: 2/1/3/2;
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  .footer-socmed {
+    grid-area: 2/2/3/3;
+    padding-top: 20px;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+
+
+@media (max-width: 572px) {
+
+
+
+/* features/block 1 */
+
+.block1 {
+   margin-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-1-main {
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.block-1-text {
+  align-items: center;
+  text-align: left;
+  width: 80%;
+}
+
+.head-block-1 {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.image-div-1 {
+  align-self: center;
+  width: 80%;
+  margin-left: 0;
+}
+
+.sign-up {
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.email-block  {
+  width: 90%;
+  margin-right: 0;
+}
+
+.signup-btn-block {
+  margin-top: 3%;
+width:92%;
+padding: 2.5% 6%;
+color:  #f0f0f0;
+font-size: 0.8rem;
+
+}
+
+/* teams/block2 */
+
+.block-2-main {
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.head-block-2 {
+  font-size: 5vw;
+}
+
+.block-2-text {
+  align-items: center;
+  text-align: left;
+  width: 80%;
+}
+
+.p-block-2 {
+  margin-right: 0;
+}
+
+
+.image-div-2 {
+  align-self: center;
+  width: 80%;
+  margin-left: 0;
+}
+
+.testimonial {
+  width: 80%;
+
+
+}
+
+/* cta */
+
+.cta {
+flex-direction: column;
+align-items: center;
+width: 80%;
+text-align: center;
+}
+
+.text-cta {
+  width: 80%;
+  align-items: center;
+}
+
+.p-cta {
+  font-size: 1rem;
+}
+
+.email-cta-div {
+  width: 80%;
+}
+
+.email-cta {
+width: 97%;
+}
+
+.signup-btn-cta {
+  width: 100%;
+}
+
+/* footer */
+
+.footer {
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.footer-socmed {
+  align-self: center;
+}
+
+ }
